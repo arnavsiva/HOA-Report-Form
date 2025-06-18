@@ -1,0 +1,67 @@
+.admin-dashboard {
+    max-width: 800px;
+    margin: 20px auto;
+    background: var(--color-light);
+    padding: 20px;
+    border: 1px solid var(--color-main);
+    border-radius: 4px;
+}
+
+.admin-dashboard h2 {
+    margin-bottom: 10px;
+    color: var(--color-main);
+}
+
+.admin-dashboard table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 15px;
+    border: 1px solid var(--color-main);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Responsive table wrapper */
+.table-responsive {
+    overflow-x: auto;
+    width: 100%;
+}
+
+/* Cell borders */
+.admin-dashboard th,
+.admin-dashboard td {
+    border: 1px solid var(--color-main);
+}
+
+.admin-dashboard thead th {
+    padding: 12px 16px;
+    text-align: left;
+    background-color: var(--color-secondary);
+    color: var(--color-text-light);
+    font-weight: 600;
+}
+
+.admin-dashboard tbody tr {
+    background-color: var(--color-text-light);
+}
+
+.admin-dashboard tbody tr:nth-child(even) {
+    background-color: var(--color-lighter);
+}
+
+/* Hover state for rows */
+.admin-dashboard tbody tr:hover {
+    background-color: var(--color-light);
+}
+
+.admin-dashboard tbody td {
+    padding: 12px 16px;
+    vertical-align: middle;
+    border-bottom: 1px solid var(--color-main);
+}
+
+/* Remove bottom border for last row */
+.admin-dashboard tbody tr:last-child td {
+    border-bottom: none;
+}
