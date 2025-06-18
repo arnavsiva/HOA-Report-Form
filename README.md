@@ -38,7 +38,7 @@ A modern, responsive React web application for reporting and managing Homeowners
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/yourusername/hoa-violation-reporter.git
+   git clone https://github.com/arnavsiva/HOA-Report-Form
    cd hoa-violation-reporter
    ```
 
